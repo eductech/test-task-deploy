@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>PIXELPLEX</title>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<link href="bundle-styles.css" rel="stylesheet"></head>
+
+<body class="body">
+  
+  <header class="menu">
+    <div class="menu__logo"></div>
+    <nav class="menu__items">
+      <button class="menu__toggle-btn"></button>
+      <ul class="menu__items-wraper">
+        <li class="menu__item menu__item_active"><a href="#">Увеличиваем конверсию</a></li>
+        <li class="menu__item"><a href="#">Принцип работы</a></li>
+        <li class="menu__item"><a href="#">№1 в Беларуси</a></li>
+        <li class="menu__item"><a href="#">О маячке</a></li>
+        <li class="menu__item"><a href="#">Ваш бизнес</a></li>
+        <li class="menu__item"><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="body__block">
+    <section class="first">
+      <div class="first__description">
+        <div class="description">
+          <header class="description__title">
+            <h1>Как повысить <br>посещаемость <br>магазина на 15%</h1>
+          </header>
+          <article class="description__content">
+            <p><b>Уникальная и инновационная технология для Беларуси.</b></p>
+            <p>Отправляйте автоматически любому человеку в радиусе 5-ти метров вокург вашего магазина <b>сообщения о скидках и акциях прямо в его смартфон!</b>
+            </p>
+            <p>Отслеживайте поведение внутри помещения, зонируйте ваш магазин, сообщайте об акциях в том отделе, где находится посетитель.</p>
+            <p><b>Система полностью автоматизированна и не требует времени сотрудников на обслуживание.</b></p>
+          </article>
+          <footer class="description__footer">
+            <button class="button">Подробнее о системе iBeacon <i class="fas fa-angle-down"></i></button>
+          </footer>
+        </div>
+      </div>
+      <div class="first__beacon">
+        <img class="beacon" alt="iBEACON">
+      </div>
+      <div class="first__phone">
+        <div class="phone">
+          <div class="phone__body">
+            <img class="phone__img phone__img_deafult"></img>
+          </div>
+          <footer class="phone__footer">
+            <div class="social">
+              <ul class="social__wraper">
+                <li class="social__item"><i class="fab fa-android"></i></li>
+                <li class="social__item"><i class="fab fa-apple"></i></li>
+                <li class="social__item"><i class="fab fa-windows"></i></li>
+              </ul>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="first__btn-holder">
+        <button class="button">Подробнее о системе iBeacon <i class="fas fa-angle-down"></i></button>
+      </div>
+    </section>
+  </div>
+    <div class="body__block">
+    <section class="how-it-works">
+      <div class="how-it-works__map">
+        <div class="map">
+          <header class="map__header">
+            <h1>Как это работает</h1>  
+          </header>
+          <div class="map__content">
+            <img class="map__background" alt="">
+            <img class="map__bank" alt="" onmouseover="show('bank')" onmouseout="hide('bank')">
+            <img class="map__parking" alt="" onmouseover="show('parking')" onmouseout="hide('parking')">
+            <img class="map__caffee" alt="" onmouseover="show('caffee')" onmouseout="hide('caffee')">
+            <img class="map__stop" alt="" onmouseover="show('stop')" onmouseout="hide('stop')">
+            <img class="map__shop" alt="" onmouseover="show('shop')" onmouseout="hide('shop')">
+            <img class="map__museum" alt="" onmouseover="show('museum')" onmouseout="hide('museum')">
+          </div>
+        </div>
+      </div>
+      <div class="how-it-works__phone">
+        <div class="phone phone_animated">
+          <div class="phone__body">
+            <img id="deafult" class="phone__img phone__img_deafult"></img>
+            <img id="bank" class="phone__img phone__img_bank"></img>
+            <img id="parking" class="phone__img phone__img_parking"></img>
+            <img id="caffee" class="phone__img phone__img_caffee"></img>
+            <img id="stop" class="phone__img phone__img_stop"></img>
+            <img id="shop" class="phone__img phone__img_shop"></img>
+            <img id="museum" class="phone__img phone__img_museum"></img>
+          </div>
+          <footer class="phone__footer">
+            <button class="button button_centered">Хочу так же</button>
+          </footer>
+        </div>
+      </div>
+      <div class="how-it-works__btn-holder">
+        <button class="button">Хочу так же</button>
+      </div>
+      <script>
+        function show(element) {
+          document.getElementById("deafult").style.display = 'none';
+          document.getElementById(element).style.display = 'inline';
+        }
+        function hide(element) {
+          document.getElementById("deafult").style.display = 'inline';
+          document.getElementById(element).style.display = 'none';
+        }
+      </script>
+    </section>  </div>
+  <div class="body__block">
+    <section class="first-projects">
+      <div class="first-projects__description">
+        <div class="description">
+          <header class="description__title">
+            <h1>Первые проекты <br>в Беларуси <br>с технологией <br>iBEACON</h1>
+          </header>
+          <article class="description__content">
+            <p>Здесь будет расписано использование маячков в реальном проекте. В Минске проходит XXII Международный специализированный форум по информационным и банковским технологиям - "ТИБО-2015". Из нового также стоит упомянуть <br>v-banking – универсальное мобильное приложение, которое позволяет объединить в один аккаунт все свои банковские карты и управлять ими со смартфона. 
+              <br><br><a href="#">Посмотреть еще проект</a>
+            </p>
+          </article>
+        </div>
+      </div>
+      <div class="first-projects__carousel">
+        <div class="carousel">
+          <div class="carousel__slides">
+            <div class="carousel__slide carousel__slide_active">
+              <img src="static/carousel-img.png">
+            </div>
+            <div class="carousel__slide">
+              <img src="static/carousel-img.png">
+            </div>
+            <div class="carousel__slide">
+              <img src="static/carousel-img.png">
+            </div>
+            <a class="carousel__btn-prev" onclick="">&#10094;</a>
+            <a class="carousel__btn-next" onclick="">&#10095;</a>
+          </div>
+          <div class="carousel__dots">
+            <span class="carousel__dot carousel__dot_active" onclick="currentSlide(1)"></span> 
+            <span class="carousel__dot" onclick=""></span> 
+            <span class="carousel__dot" onclick=""></span> 
+          </div>
+          <footer class="carousel__footer">
+            <button class="button">Заказать презентацию</button>
+          </footer>
+        </div>
+      </div>
+      <div class="first-projects__btn-holder">
+        <button class="button">Заказать презентацию</i></button>
+      </div>
+      <div class="first-projects__title-holder">
+        <h1 class="title">"ТИБО-2015"</h1>
+      </div>
+    </section>  </div>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<script type="text/javascript" src="bundle.js"></script></body>
+
+</html>
