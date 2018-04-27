@@ -186,9 +186,10 @@
       line-height: 327px; }
     .phone_animated .phone__img {
       width: 129.5px; } }
-  @media screen and (max-width: 640px) and (max-width: 768px) {
-    .phone_animated__footer {
-      display: none; } }
+
+@media screen and (max-width: 768px) {
+  .phone_animated .phone__footer {
+    display: none; } }
 
 .social__wraper {
   display: flex;
